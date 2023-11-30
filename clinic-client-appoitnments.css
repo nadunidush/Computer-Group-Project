@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.main{
+    display: flex;
+    position: relative;
+}
+
+/*Left Side style in clinic appoitment*/
+.Left-side{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(144, 200, 219);
+}
+.clinic-details{
+    padding-top: 30px;
+}
+.clinic-logo{
+    width: 90px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clinic-details p{
+    font-weight: 700;
+    text-align: center;
+}
+.clinic-details p:nth-child(2){
+    margin-top: 10px;
+}
+.clinic-dashboard{
+    margin: 40px 0px 0px 70px;
+    position: relative;
+    cursor: pointer;
+}
+.clinic-dashboard p{
+    margin-top: 25px;
+}
+.clinic-dashboard-logos img{
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -40px;
+}
+.clinic-dashboard-logos img:nth-child(1){
+    top: 5px;
+}
+.clinic-dashboard-logos img:nth-child(2){
+    top: 60px;
+}
+.clinic-dashboard-logos img:nth-child(3){
+    top: 110px;
+}
+.clinic-dashboard-logos img:nth-child(4){
+    top: 165px;
+}
+.clinic-dashboard-logos img:nth-child(5){
+    top: 215px;
+}
+.clinic-dashboard-logos img:nth-child(6){
+    top: 260px;
+}
+.clinic-dashboard-logos img:nth-child(7){
+    top: 305px;
+}
+
+
+/*appoitnment head Right Side style in clinic appoitment*/
+.top-appoitnments{
+    display: flex;
+    gap: 58%;
+}
+.heading-appoitment,.search{
+    margin-top: 40px;   
+}
+.heading-appoitment h1{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.search input[type=text]{
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.search-icon{
+    width: 30px;
+    display: inline;
+    position: absolute;
+    top: 7%;
+    left: 93%;
+}
+.search button{
+    cursor: pointer;
+}
+
+/*appoitnment table Right Side style in clinic appoitment*/
+#appoitnment{
+    width: 93%;
+    margin: 80px 0px 0px 20px;
+    border-collapse: collapse;
+}
+#appoitnment th,#appoitnment td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#appoitnment th{
+    background-color: #FFA500;
+}
+#appoitnment td{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+#right-icon{
+    width: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+#wrong-icon{
+    margin-left: 40px;
+    width: 20px;
+    cursor: pointer;
+    background-color: white;
+}
