@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client's Appoitnments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="clinic-client-appoitnments.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="Left-side">
+            <div class="clinic-details">
+                <img src="images/clinic-logo.webp" alt="clinic-logo" srcset="" class="clinic-logo">
+                <p>Health Care Clinic</p>
+                <p id="clinic-ID">1987765649</p>
+            </div>
+            <div class="clinic-dashboard">
+                <div class="clinic-dashboard-logos">
+                    <img src="images/client's-appoitnment-logo.png" alt="client's-appoitnment" srcset="">
+                    <img src="images/client'sdetails-logo.png" alt="" srcset="">
+                    <img src="images/docotr's-appoit-logo.png" alt="" srcset="">
+                    <img src="images/doctor's-details.png" alt="" srcset="">
+                    <img src="images/medicine.png" alt="" srcset="">
+                    <img src="images/payment-logo.png" alt="" srcset="">
+                    <img src="images/settings-logo.png" alt="" srcset="">
+                </div>
+                <div class="clinic-dashboard-details">
+                    <p>Client's Appoitnments</p>
+                    <p>Client's Details</p>
+                    <p>Doctor's Appoitnments</p>
+                    <p>Doctor's Details</p>
+                    <p>Medicine</p>
+                    <p>Payement</p>
+                    <p>Settings</p>
+                </div>
+            </div>
+        </div>
+        <div class="Right-side">
+            <div class="top-appoitnments">
+                <div class="heading-appoitment">
+                    <h1>Client's Appoitnments</h1>
+                </div>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search ID">
+                    <button><img src="images/search-icon.png" alt="search-icon" srcset="" class="search-icon"></button>
+                </div>
+            </div>
+            <div class="appoitnment-table">
+                <table id="appoitnment">
+                    <tr>
+                      <th>AID</th>
+                      <th>Date</th>
+                      <th>Time</th>
+                      <th>Client Name</th>
+                      <th>Pet Name</th>
+                      <th>Reason</th>
+                      <th>Select Doctor</th>
+                      <th>Send Doctor</th>
+                      <th>Doctor's Decision</th>
+                      <th>Decision Send To Client</th>
+                    </tr>
+                    <tr>
+                      <td>187</td>
+                      <td>20/11/2023</td>
+                      <td>10.00 a.m</td>
+                      <td>Nadun Idush</td>
+                      <td>Blacky</td>
+                      <td>excessive bleeding</td>
+                      <td>
+                        <select id="doctors">
+                            <option selected value="Click Here">Click Here</option>
+                            <option value="1">Dr. Patrick Soon Shiong</option>
+                            <option value="2">Dr. William A. Abdu</option>
+                            <option value="3">Dr. Myles. </option>
+                            <option value="4">Dr. Khalid Abbed</option>
+                            <option value="5">Dr. Naresh Trehan</option>
+                            <option value="6">Dr. Arthur Reese Albright</option>
+                            <option value="7">Dr. Corrie T.M Anderson</option>
+                        </select>
+                      </td>
+                      <td style="text-align: center;"><button>Send</button></td>
+                      <td>Pending</td>
+                      <td><img src="images/Right-icon.png" alt="Right" id="right-icon"><img src="images/wrong-icon.png" alt="wrong-icon" id="wrong-icon"></td>
+                    </tr>
+
+                    <tr>
+                        <td>187</td>
+                        <td>20/11/2023</td>
+                        <td>10.00 a.m</td>
+                        <td>Nadun Idush</td>
+                        <td>Blacky</td>
+                        <td>excessive bleeding</td>
+                        <td>
+                          <select id="doctors">
+                              <option selected value="Click Here">Click Here</option>
+                              <option value="1">Dr. Patrick Soon Shiong</option>
+                              <option value="2">Dr. William A. Abdu</option>
+                              <option value="3">Dr. Myles. </option>
+                              <option value="4">Dr. Khalid Abbed</option>
+                              <option value="5">Dr. Naresh Trehan</option>
+                              <option value="6">Dr. Arthur Reese Albright</option>
+                              <option value="7">Dr. Corrie T.M Anderson</option>
+                          </select>
+                        </td>
+                        <td style="text-align: center;"><button>Send</button></td>
+                        <td>Pending</td>
+                        <td><img src="images/Right-icon.png" alt="Right" id="right-icon"><img src="images/wrong-icon.png" alt="wrong-icon" id="wrong-icon"></td>
+                      </tr>
+
+                      <tr>
+                        <td>187</td>
+                        <td>20/11/2023</td>
+                        <td>10.00 a.m</td>
+                        <td>Nadun Idush</td>
+                        <td>Blacky</td>
+                        <td>excessive bleeding</td>
+                        <td>
+                          <select id="doctors">
+                              <option selected value="Click Here">Click Here</option>
+                              <option value="1">Dr. Patrick Soon Shiong</option>
+                              <option value="2">Dr. William A. Abdu</option>
+                              <option value="3">Dr. Myles. </option>
+                              <option value="4">Dr. Khalid Abbed</option>
+                              <option value="5">Dr. Naresh Trehan</option>
+                              <option value="6">Dr. Arthur Reese Albright</option>
+                              <option value="7">Dr. Corrie T.M Anderson</option>
+                          </select>
+                        </td>
+                        <td style="text-align: center;"><button>Send</button></td>
+                        <td>Pending</td>
+                        <td><img src="images/Right-icon.png" alt="Right" id="right-icon"><img src="images/wrong-icon.png" alt="wrong-icon" id="wrong-icon"></td>
+                      </tr>
+
+                      <tr>
+                        <td>187</td>
+                        <td>20/11/2023</td>
+                        <td>10.00 a.m</td>
+                        <td>Nadun Idush</td>
+                        <td>Blacky</td>
+                        <td>excessive bleeding</td>
+                        <td>
+                          <select id="doctors">
+                              <option selected value="Click Here">Click Here</option>
+                              <option value="1">Dr. Patrick Soon Shiong</option>
+                              <option value="2">Dr. William A. Abdu</option>
+                              <option value="3">Dr. Myles. </option>
+                              <option value="4">Dr. Khalid Abbed</option>
+                              <option value="5">Dr. Naresh Trehan</option>
+                              <option value="6">Dr. Arthur Reese Albright</option>
+                              <option value="7">Dr. Corrie T.M Anderson</option>
+                          </select>
+                        </td>
+                        <td style="text-align: center;"><button>Send</button></td>
+                        <td>Pending</td>
+                        <td><img src="images/Right-icon.png" alt="Right" id="right-icon"><img src="images/wrong-icon.png" alt="wrong-icon" id="wrong-icon"></td>
+                      </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
