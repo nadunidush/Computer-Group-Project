@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client's Appoitnments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="clinic-client-appoitnments.css">
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.main{
+    display: flex;
+    position: relative;
+}
+
+/*Left Side style in clinic appoitment*/
+.Left-side{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(144, 200, 219);
+}
+.clinic-details{
+    padding-top: 30px;
+}
+.clinic-logo{
+    width: 90px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clinic-details p{
+    font-weight: 700;
+    text-align: center;
+}
+.clinic-details p:nth-child(2){
+    margin-top: 10px;
+}
+.clinic-dashboard{
+    margin: 40px 0px 0px 70px;
+    position: relative;
+    cursor: pointer;
+}
+.clinic-dashboard p{
+    margin-top: 25px;
+}
+.clinic-dashboard-logos img{
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -40px;
+}
+.clinic-dashboard-logos img:nth-child(1){
+    top: 5px;
+}
+.clinic-dashboard-logos img:nth-child(2){
+    top: 60px;
+}
+.clinic-dashboard-logos img:nth-child(3){
+    top: 110px;
+}
+.clinic-dashboard-logos img:nth-child(4){
+    top: 165px;
+}
+.clinic-dashboard-logos img:nth-child(5){
+    top: 215px;
+}
+.clinic-dashboard-logos img:nth-child(6){
+    top: 260px;
+}
+.clinic-dashboard-logos img:nth-child(7){
+    top: 305px;
+}
+
+
+/*appoitnment head Right Side style in clinic appoitment*/
+.top-appoitnments{
+    display: flex;
+    gap: 78%;
+}
+.heading-appoitment,.search{
+    margin-top: 40px;   
+}
+.heading-appoitment h1{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.search input[type=text]{
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.search-icon{
+    width: 30px;
+    display: inline;
+    position: absolute;
+    top: 7%;
+    left: 93%;
+}
+.search button{
+    cursor: pointer;
+}
+
+/*appoitnment table Right Side style in clinic appoitment*/
+#appoitnment{
+    width: 93%;
+    margin: 80px 0px 0px 20px;
+    border-collapse: collapse;
+}
+#appoitnment th,#appoitnment td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#appoitnment th{
+    background-color: #FFA500;
+}
+#appoitnment td{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+#right-icon{
+    width: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+#wrong-icon{
+    margin-left: 40px;
+    width: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="Left-side">
+            <div class="clinic-details">
+                <img src="images/clinic-logo.webp" alt="clinic-logo" srcset="" class="clinic-logo">
+                <p>Health Care Clinic</p>
+                <p id="clinic-ID">1987765649</p>
+            </div>
+            <div class="clinic-dashboard">
+                <div class="clinic-dashboard-logos">
+                    <img src="images/client's-appoitnment-logo.png" alt="client's-appoitnment" srcset="">
+                    <img src="images/client'sdetails-logo.png" alt="" srcset="">
+                    <img src="images/docotr's-appoit-logo.png" alt="" srcset="">
+                    <img src="images/doctor's-details.png" alt="" srcset="">
+                    <img src="images/medicine.png" alt="" srcset="">
+                    <img src="images/payment-logo.png" alt="" srcset="">
+                    <img src="images/settings-logo.png" alt="" srcset="">
+                </div>
+                <div class="clinic-dashboard-details">
+                    <p>Client's Appoitnments</p>
+                    <p>Client's Details</p>
+                    <p>Doctor's Appoitnments</p>
+                    <p>Doctor's Details</p>
+                    <p>Medicine</p>
+                    <p>Payement</p>
+                    <p>Settings</p>
+                </div>
+            </div>
+        </div>
+        <div class="Right-side">
+            <div class="top-appoitnments">
+                <div class="heading-appoitment">
+                    <h1>Client's Details</h1>
+                </div>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search ID">
+                    <button><img src="images/search-icon.png" alt="search-icon" srcset="" class="search-icon"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
